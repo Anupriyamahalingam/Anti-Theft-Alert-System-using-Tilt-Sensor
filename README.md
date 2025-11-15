@@ -53,20 +53,20 @@ Step 7: Save Your Work
 •	Save the Circuit: Click "Save" to keep your circuit design and code for future use.
 
 ## Code:
-// C++ code
-//
-void setup()
-{
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-void loop()
-{
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
-}
+	// C++ code
+	//
+	void setup()
+	{
+	  pinMode(LED_BUILTIN, OUTPUT);
+	}
+	
+	void loop()
+	{
+	  digitalWrite(LED_BUILTIN, HIGH);
+	  delay(1000); // Wait for 1000 millisecond(s)
+	  digitalWrite(LED_BUILTIN, LOW);
+	  delay(1000); // Wait for 1000 millisecond(s)
+	}
 
 
 
